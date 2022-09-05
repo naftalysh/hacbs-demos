@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: build-pipelines-defaults
+  namespace: shebert
 data:
-  default_build_bundle: "quay.io/redhat-appstudio/hacbs-templates-bundle:latest"
-  default_build_bundle2: "quay.io/jsztuka/hacbs-templates-bundle:latest"
+  default_build_bundle2: "quay.io/redhat-appstudio/hacbs-templates-bundle:bd950114df56457dcef19b6151c528011af9d9b2" 
+  default_build_bundle: "quay.io/redhat-appstudio/hacbs-templates-bundle:bd950114df56457dcef19b6151c528011af9d9b2" 
